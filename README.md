@@ -7,13 +7,15 @@ Portfólio web para documentar meus avanços na programação e aplicar os conhe
 
 ## Screenshots
 
-![portfolio - sobre mim](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio.png)
+![portfolio - sobre mim](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio.jpg)
 
-![portfolio - habilidades tecnicas](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio2.png)
+![portfolio - habilidades tecnicas](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio2.jpg)
 
-![portfolio - projetos](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio3.png)
+![portfolio - projetos](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio3.jpg)
 
-![portfolio - certificados](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio4.png)
+![portfolio - certificados](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio4.jpg)
+
+![portfolio - footer](https://raw.githubusercontent.com/isaquesv/portfolio/refs/heads/main/src/img/portfolio5.jpg)
 
 ---
 
