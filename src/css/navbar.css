@@ -44,13 +44,20 @@
 #sub-nav .container-fluid #mobile-nav .navbar-nav .nav-item .nav-link {
     padding: 0;
     margin-right: 30px;
+    cursor: pointer;
     color: #000000;
     border-bottom: 2px solid #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
 }
 
+#sub-nav .container-fluid #mobile-nav .navbar-nav .nav-item .nav-link.active,
 #sub-nav .container-fluid #mobile-nav .navbar-nav .nav-item .nav-link:hover {
-    border-bottom: 2px solid #5DA36F;
+    color: #5DA36F;
+}
+
+#sub-nav .container-fluid #mobile-nav .navbar-nav .nav-item:nth-child(5) .nav-link:hover {
+    border-bottom: 1px solid #5DA36F;
 }
 
 /* Responsividade */
@@ -66,7 +73,7 @@
     }
 
     #sub-nav .container-fluid .navbar-toggler {
-        margin: 10px 15px;
+        margin: 10px 15px 7px 15px;
     }
 
     #sub-nav .container-fluid #mobile-nav .navbar-nav .nav-item:first-of-type {

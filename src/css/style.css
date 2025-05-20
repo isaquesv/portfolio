@@ -194,20 +194,6 @@ body {
 }
 
 /* Projetos */
-#projects .background .container-fluid #search {
-    display: flex;
-}
-
-#projects .background .container-fluid #search #search-input,
-#projects .background .container-fluid #search #category-select {
-    color: #667080;
-    border: 1px solid #A8A8A8;
-}
-
-#projects .background .container-fluid #search #category-select {
-    max-width: 230px;
-    margin-left: 12px;
-}
 
 #projects .background .container-fluid #projects-content {
     padding: 16px;
@@ -273,6 +259,7 @@ body {
     border: 1px solid;
     border-radius: 18px;
     font-weight: bold;
+    cursor: default;
     color: #EDEDED;
     background-color: #5DA36F;
     box-shadow:
@@ -352,6 +339,11 @@ body {
     padding: 2px;
     border: 2px dashed #a8a8a8;
     height: 100%;
+}
+
+#projects .background .container-fluid #projects-content .project .right-content .project-image:hover {
+    cursor: pointer;
+    scale: 1.01;
 }
 
 /* Certificados */
@@ -513,16 +505,6 @@ body {
 @media screen and (max-width: 600px) {
     #technical-skills .background .container-fluid #tags .tag {
         width: 27%;
-    }
-
-    #projects .background .container-fluid #search {
-        display: block;
-    }
-
-    #projects .background .container-fluid #search #category-select {
-        max-width: none;
-        width: 100%;
-        margin: 10px 0 0 0;
     }
 
     #projects .background .container-fluid #projects-content {

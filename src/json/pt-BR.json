@@ -1,0 +1,97 @@
+{
+    "title": "Portfólio - isaquesv",
+
+    "navLink1": "Sobre mim",
+    "navLink2": "Habilidades técnicas",
+    "navLink3": "Projetos",
+    "navLink4": "Certificados",
+    "navLink5": "Visualizar currículo",
+
+    "navLink1Title": "Ir para a seção Sobre mim",
+    "navLink2Title": "Ir para a seção Habilidades técnicas",
+    "navLink3Title": "Ir para a seção Projetos",
+    "navLink4Title": "Ir para a seção Certificados",
+    "navLink5Title": "Visualizar currículo (Canva)",
+
+    "aboutMeTitle": "Sobre mim",
+    "aboutMeSubtitle": "Desenvolvedor Backend",
+    "aboutMeParagraph1": "Meu nome é Isaque Silva Venancio. Sou técnico em Informática para Internet pela <a href='https://www.etecitanhaem.com.br/' title='Site ETEC de Itanhaém' target='_blank'>ETEC de Itanhaém</a> e atualmente estou no último ano do curso de Análise e Desenvolvimento de Sistemas na <a href='https://fatecpg.edu.br/' title='Site FATEC de Praia Grande' target='_blank'>FATEC de Praia Grande</a>.",
+    "aboutMeParagraph2": "Tenho experiência prática com HTML, CSS, JavaScript, Java e SQL, e venho me aprofundando principalmente na área de backend, buscando entender cada vez mais sobre a construção de aplicações robustas e bem estruturadas.",
+    "aboutMeParagraph3": "Estou sempre procurando aprender e crescer — tanto no aspecto técnico quanto pessoal — e espero contribuir de forma útil e responsável nos projetos em que eu estiver envolvido, ao mesmo tempo em que continuo evoluindo como desenvolvedor.",
+
+    "githubLinkTitle": "Meu perfil no GitHub",
+    "linkedInLinkTitle": "Meu perfil no LinkedIn",
+    "instagramLinkTitle": "Meu perfil no Instagram",
+    "emailLinkTitle": "Me envie uma mensagem",
+
+    "aboutMeImageAlt": "Foto de perfil de Isaque Silva Venancio",
+
+    "technicalSkillsTitle": "Habilidades técnicas",
+    "technicalSkillsParagraph": "Os componentes com <b>tons mais escuros</b> representam as tecnologias com as quais já tive maior contato e experiência prática ao longo da minha carreira. Já os <b>tons mais claros</b> indicam tecnologias que estou atualmente estudando ou com as quais tive apenas um breve contato até o momento.",
+
+    "projectsTitle": "Projetos",
+    "project1Title": "Who Is That Champion?",
+    "project1Paragraph1": "Jogo interativo baseado em <b>League of Legends</b> que desafia o jogador a descobrir o campeão misterioso por meio de características reveladas rodada por rodada.",
+    "project1Paragraph2": "Com interface dinâmica, feedback visual claro, suporte a múltiplos idiomas (<b>PT-BR, EN-US e ES-ES</b>) e foco em estratégia, a experiência foi criada para fãs que desejam testar seus conhecimentos de forma divertida.",
+    "project1ImageAlt": "Tela de vitória do jogo 'Who is That Champion?' mostrando a imagem do campeão Zed, com características corretas e incorretas destacadas por cores diferentes",
+
+    "project2Title": "Who Is That Champion Data API",
+    "project2Paragraph1": "Uma <b>API REST</b> desenvolvida em Node.js que fornece dados estruturados e acessíveis sobre os campeões de League of Legends, servindo como base para o jogo <b>'Who Is That Champion'</b>.",
+    "project2Paragraph2": "A <b>API</b> organiza informações como nome, região, recursos, função principal, ano de lançamento, entre outras características utilizadas no jogo. Projetada com foco em clareza, escalabilidade e facilidade de integração, essa API garante que o jogo receba dados consistentes e atualizados de forma eficiente.",
+    "project2ImageAlt": "Trecho de dados JSON da API de campeões do League of Legends, com informações detalhadas sobre os personagens Aatrox e Ahri",
+
+    "project3Title": "Calculator",
+    "project3Paragraph1": "Calculadora web responsiva desenvolvida com HTML, CSS e JavaScript puro, que oferece suporte a três temas (<b>claro, escuro e antigo</b>). Suporta operações básicas, porcentagens, fatoriais e expressões matemáticas complexas, com entrada por teclado físico e recursos como troca de sinal, botão <b>'Ans'</b> para reutilizar o último resultado, além de limpar ou apagar valores da expressão.",
+    "project3ImageAlt": "Três calculadoras lado a lado com diferentes temas: claro, escuro e antigo, exibindo botões matemáticos como C, %, n! e operações básicas",
+
+    "project4Title": "Assistente Virtual Educacional integrado ao SIGA",
+    "project4Paragraph1": "Sistema que realiza a raspagem de dados acadêmicos a partir do login do aluno no <b>SIGA</b>, alimentando a <b>IA Gemini</b> com essas informações pessoais. Após esse processo, o usuário pode interagir livremente com a assistente virtual <b>'EduSIGA'</b>, que responde dúvidas e oferece suporte personalizado baseado nos dados acadêmicos do aluno.",
+    "project4Paragraph2": "O sistema também permite que o usuário apague conversas e exclua sua conta a qualquer momento, garantindo controle total sobre suas informações.",
+
+    "project5Title": "Hora de Codar Java - Curso",
+    "project5Paragraph1": "Repositório pessoal dedicado ao acompanhamento e documentação do meu aprendizado no curso <b>'Java do Básico ao Avançado'</b>, ministrado por <b>Matheus Battisti</b> na plataforma <b>Hora de Codar</b>. Aqui registro exercícios, projetos e anotações que abrangem desde os fundamentos até tópicos avançados da linguagem <b>Java</b>, consolidando meus conhecimentos e aprimorando minhas habilidades em programação orientada a objetos e demais conceitos essenciais da linguagem.",
+
+    "project6Title": "Laboratório de Banco de Dados - Tarefas",
+    "project6Paragraph1": "Repositório pessoal destinado ao registro e documentação dos conteúdos e tarefas desenvolvidos na disciplina de <b>Laboratório de Banco de Dados</b> (<b>LdBD</b>), ministrada pela professora <b>Simone Romano</b> no 5º ciclo (<b>1º bimestre de 2025</b>) do curso de <b>Análise e Desenvolvimento de Sistemas</b> da <b>FATEC de Praia Grande</b>. Aqui organizo meus exercícios, práticas e aprendizados para consolidar o conhecimento em modelagem, consultas <b>SQL</b>, administração e outras áreas fundamentais de banco de dados.",
+
+    "project7Title": "Programação para Dispositivos Mobile - Tarefas",
+    "project7Paragraph1": "Repositório pessoal destinado ao registro e documentação das tarefas desenvolvidas na disciplina de <b>Programação para Dispositivos Mobile</b> (<b>PpDM</b>), ministrada pelo professor <b>Joseffe Oliveira</b> no 5º ciclo (<b>1º bimestre de 2025</b>) do curso de <b>Análise e Desenvolvimento de Sistemas</b> da <b>FATEC de Praia Grande</b>. Neste espaço organizo exercícios, projetos e estudos focados no desenvolvimento de aplicações móveis, consolidando conhecimentos em plataformas e tecnologias específicas para dispositivos mobile.",
+
+    "project8Title": "Programação Orientada a Objetos - Tarefas",
+    "project8Paragraph1": "Repositório pessoal destinado ao registro e documentação das tarefas desenvolvidas na disciplina de <b>Programação Orientada a Objetos</b> (<b>POO</b>), ministrada pelo professor <b>Ricardo Pupo Larguesa</b> no 4º ciclo (<b>2º bimestre de 2024</b>) do curso de <b>Análise e Desenvolvimento de Sistemas</b> da <b>FATEC de Praia Grande</b>. Neste espaço organizo exercícios, projetos e estudos focados nos princípios e práticas da programação orientada a objetos, consolidando fundamentos essenciais para o desenvolvimento de software.",
+
+    "projectType1": "Sites",
+    "projectType2": "APIs",
+    "projectType3": "Estudos",
+    
+    "projectButton1": "Repositório",
+    "projectButton2": "Site",
+    "projectButton3": "YouTube",
+
+    "certificationsTitle": "Certificados",
+
+    "certification1Title": "Faculdade de Tecnologia de Praia Grande (Fatec)",
+    "certification1Type": "Técnologo - Análise e Desenvolvimento de Sistemas",
+    "certification1Paragraph1": "fev de 2023 - dez de 2025",
+    "certification1Paragraph2": "Cursando Análise e Desenvolvimento de Sistemas (ADS) na Fatec Praia Grande, com foco em desenvolvimento, análise e manutenção de sistemas, incluindo programação, bancos de dados, engenharia de software e gestão de projetos.",
+
+    "certification2Title": "Certificações Oracle Database",
+    "certification2Type": "Oracle",
+    "certification2Paragraph1": "Verificação emitida em nov de 2024",
+    "certification2Paragraph2": "Prêmio de Conclusão - Database Foundations. Certificação concedida pela conclusão do curso 'Database Foundations', oferecido na disciplina de Banco de Dados durante o 2º semestre de 2024, no curso de Análise e Desenvolvimento de Sistemas (ADS) da Fatec Praia Grande.",
+    
+    "certification3Title": "Certificações Oracle Database",
+    "certification3Type": "Oracle",
+    "certification3Paragraph1": "Verificação emitida em nov de 2024",
+    "certification3Paragraph2": "Prêmio de Conclusão - Database Foundations Cumulative Final Exam. Certificação concedida pela conclusão do exame final do curso 'Database Foundations', realizado durante a disciplina de Banco de Dados no 2º semestre de 2024, no curso de Análise e Desenvolvimento de Sistemas (ADS) da Fatec Praia Grande.",
+    
+    "certification4Title": "Certificação Etec",
+    "certification4Type": "ETEC de Itanhaém",
+    "certification4Paragraph1": "Verificação emitida em mar de 2023",
+    "certification4Paragraph2": "Certificado de Conclusão - Curso Técnico em Informática para Internet. Certificado concedido pela conclusão do curso técnico em Informática para Internet, integrado ao Ensino Médio, oferecido pela Etec de Itanhaém.",
+    
+    "certification5Title": "Certificação Wizard - Immediate Conversation",
+    "certification5Type": "Wizard by Pearson",
+    "certification5Paragraph1": "Verificação emitida em mar de 2023",
+    "certification5Paragraph2": "Certificado de conclusão - Immediate Conversation. Certificado concedido pela conclusão do curso de inglês 'Immediate Conversation' na Wizard Itanhaém, com carga horária total de 140 horas."
+}

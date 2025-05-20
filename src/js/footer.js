@@ -1,4 +1,4 @@
 const CURRENT_YEAR = new Date().getFullYear();
-const FOOTER_LINK = document.querySelector("footer a");
+const COPYRIGHT = document.querySelector("#copyright");
 
-FOOTER_LINK.innerHTML = "© 2025–" + CURRENT_YEAR + " isaquesv. Todos os direitos reservados.";
+COPYRIGHT.textContent = "© " + CURRENT_YEAR + " Copyright: isaquesv";

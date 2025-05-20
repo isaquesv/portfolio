@@ -1,0 +1,98 @@
+{
+    "title": "Portfolio - isaquesv",
+
+    "navLink1": "About me",
+    "navLink2": "Technical skills",
+    "navLink3": "Projects",
+    "navLink4": "Certifications",
+    "navLink5": "View resume",
+
+    "navLink1Title": "Go to the About me section",
+    "navLink2Title": "Go to the Technical skills section",
+    "navLink3Title": "Go to the Projects section",
+    "navLink4Title": "Go to the Certifications section",
+    "navLink5Title": "View resume (Canva)",
+
+    "aboutMeTitle": "About me",
+    "aboutMeSubtitle": "Backend Developer",
+    "aboutMeParagraph1": "My name is Isaque Silva Venancio. I hold a technical degree in Internet Informatics from <a href='https://www.etecitanhaem.com.br/' title='ETEC of Itanhaém Website' target='_blank'>ETEC of Itanhaém</a> and I’m currently in the final year of my Systems Analysis and Development program at <a href='https://fatecpg.edu.br/' title='FATEC of Praia Grande Website' target='_blank'>FATEC of Praia Grande</a>.",
+    "aboutMeParagraph2": "I have hands-on experience with HTML, CSS, JavaScript, Java, and SQL, and I’ve been focusing mainly on backend development, aiming to deepen my understanding of building robust and well-structured applications.",
+    "aboutMeParagraph3": "I’m always looking to learn and grow — both technically and personally — and I hope to contribute in a meaningful and responsible way to the projects I’m involved in, while continuing to evolve as a developer.",
+    
+    "githubLinkTitle": "My GitHub profile",
+    "linkedInLinkTitle": "My LinkedIn profile",
+    "instagramLinkTitle": "My Instagram profile",
+    "emailLinkTitle": "Send me a message",
+
+    "aboutMeImageAlt": "Profile picture of Isaque Silva Venancio",
+
+    "technicalSkillsTitle": "Technical skills",
+    "technicalSkillsParagraph": "The components with <b>darker tones</b> represent technologies I’ve had more contact with and practical experience throughout my career. Meanwhile, the <b>lighter tones</b> indicate technologies I’m currently studying or have only briefly worked with so far.",
+    
+    "projectsTitle": "Projects",
+    "project1Title": "Who Is That Champion?",
+    "project2Title": "Who Is That Champion Data API",
+    "project3Title": "Calculator",
+    "project4Title": "Educational Virtual Assistant integrated with SIGA",
+    "project5Title": "Hora de Codar Java - Course",
+    "project6Title": "Database Lab - Tasks",
+    "project7Title": "Mobile Device Programming - Tasks",
+    "project8Title": "Object-Oriented Programming - Tasks",
+
+    "projectType1": "Websites",
+    "projectType2": "APIs",
+    "projectType3": "Studies",
+
+    "project1Paragraph1": "Interactive game based on <b>League of Legends</b> that challenges the player to guess the mystery champion by revealing characteristics round by round.",
+    "project1Paragraph2": "With a dynamic interface, clear visual feedback, support for multiple languages (<b>PT-BR, EN-US, and ES-ES</b>), and a focus on strategy, the experience was created for fans who want to test their knowledge in a fun way.",
+
+    "project1ImageAlt": "Victory screen from the game 'Who is That Champion?' showing the champion Zed’s image, with correct and incorrect traits highlighted in different colors",
+
+    "projectButton1": "Repository",
+    "projectButton2": "Website",
+    "projectButton3": "YouTube",
+
+    "project2Paragraph1": "A <b>REST API</b> developed in Node.js that provides structured and accessible data about League of Legends champions, serving as the foundation for the <b>'Who Is That Champion'</b> game.",
+    "project2Paragraph2": "The <b>API</b> organizes information such as name, region, resources, main role, release year, among other characteristics used in the game. Designed with a focus on clarity, scalability, and ease of integration, this API ensures the game receives consistent and up-to-date data efficiently.",
+    "project2ImageAlt": "JSON data snippet from the League of Legends champions API, showing detailed information about characters Aatrox and Ahri",
+
+    "project3Paragraph1": "A responsive web calculator built with pure HTML, CSS, and JavaScript, supporting three themes (<b>light, dark, and retro</b>). It handles basic operations, percentages, factorials, and complex math expressions, with keyboard input support and features like sign switching, <b>'Ans'</b> button to reuse the last result, and options to clear or delete parts of the expression.",
+    "project3ImageAlt": "Three calculators side by side with different themes: light, dark, and retro, displaying math buttons like C, %, n!, and basic operations",
+
+    "project4Paragraph1": "A system that scrapes academic data after the student logs into <b>SIGA</b>, feeding this personal information into the <b>Gemini AI</b>. Once this process is complete, the user can freely interact with the virtual assistant <b>'EduSIGA'</b>, which answers questions and provides personalized support based on the student’s academic data.",
+    "project4Paragraph2": "The system also allows users to delete conversations and remove their account at any time, ensuring full control over their information.",
+
+    "project5Paragraph1": "A personal repository dedicated to tracking and documenting my learning in the <b>'Java from Basic to Advanced'</b> course, taught by <b>Matheus Battisti</b> on the <b>Hora de Codar</b> platform. Here I record exercises, projects, and notes covering everything from fundamentals to advanced Java topics, strengthening my object-oriented programming skills and understanding of essential language concepts.",
+
+    "project6Paragraph1": "A personal repository for documenting content and tasks developed in the <b>Database Laboratory</b> course, taught by professor <b>Simone Romano</b> during the 5th term (<b>1st bimester of 2025</b>) of the <b>Systems Analysis and Development</b> program at <b>FATEC Praia Grande</b>. This space is organized with exercises, practices, and insights aimed at consolidating knowledge in modeling, <b>SQL</b> queries, administration, and other core database areas.",
+
+    "project7Paragraph1": "A personal repository for documenting tasks developed in the <b>Mobile Devices Programming</b> course, taught by professor <b>Joseffe Oliveira</b> during the 5th term (<b>1st bimester of 2025</b>) of the <b>Systems Analysis and Development</b> program at <b>FATEC Praia Grande</b>. This space includes exercises, projects, and studies focused on mobile application development, consolidating knowledge in platforms and technologies for mobile devices.",
+
+    "project8Paragraph1": "A personal repository for documenting tasks developed in the <b>Object-Oriented Programming</b> course, taught by professor <b>Ricardo Pupo Larguesa</b> during the 4th term (<b>2nd bimester of 2024</b>) of the <b>Systems Analysis and Development</b> program at <b>FATEC Praia Grande</b>. This space includes exercises, projects, and studies centered on the principles and practices of object-oriented programming, reinforcing essential software development foundations.",
+
+    "certification1Title": "Faculty of Technology of Praia Grande (Fatec)",
+    "certification1Type": "Technologist – Systems Analysis and Development",
+    "certification1Paragraph1": "feb 2023 – dec 2025",
+    "certification1Paragraph2": "Currently pursuing a degree in Systems Analysis and Development (ADS) at Fatec Praia Grande, with a focus on development, analysis, and maintenance of systems, including programming, databases, software engineering, and project management.",
+
+    "certification2Title": "Oracle Database Certifications",
+    "certification2Type": "Oracle",
+    "certification2Paragraph1": "Verification issued in Nov 2024",
+    "certification2Paragraph2": "Certificate of Completion – Database Foundations. Certification awarded for completing the 'Database Foundations' course, offered during the Database subject in the second semester of 2024 in the Systems Analysis and Development (ADS) program at Fatec Praia Grande.",
+
+    "certification3Title": "Oracle Database Certifications",
+    "certification3Type": "Oracle",
+    "certification3Paragraph1": "Verification issued in Nov 2024",
+    "certification3Paragraph2": "Certificate of Completion – Database Foundations Cumulative Final Exam. Certification awarded for passing the final exam of the 'Database Foundations' course, taken during the Database subject in the second semester of 2024 in the Systems Analysis and Development (ADS) program at Fatec Praia Grande.",
+
+    "certification4Title": "ETEC Certification",
+    "certification4Type": "ETEC of Itanhaém",
+    "certification4Paragraph1": "Verification issued in Mar 2023",
+    "certification4Paragraph2": "Certificate of Completion – Technical Course in Internet Informatics. Certificate awarded for completing the technical course in Internet Informatics, integrated with high school, offered by ETEC of Itanhaém.",
+
+    "certification5Title": "Wizard Certification – Immediate Conversation",
+    "certification5Type": "Wizard by Pearson",
+    "certification5Paragraph1": "Verification issued in Mar 2023",
+    "certification5Paragraph2": "Certificate of Completion – Immediate Conversation. Certificate awarded for completing the 'Immediate Conversation' English course at Wizard Itanhaém, with a total workload of 140 hours."
+
+}

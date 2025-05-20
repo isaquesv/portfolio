@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - isaquesv</title>
-    <link rel="icon" href="src/img/favicon_isv.png" type="image/png">
+    <link rel="icon" href="src/img/favicon-isv.png" type="image/png">
     <meta name="author" content="isaquesv">
     <meta name="description" content="Portfólio de Isaque Silva Venancio">
     <meta name="keywords" content="Isaque Silva Venancio,Portfólio,Portfolio,Desenvolvedor,Web,HTML,CSS,JavaScript,Java,Node.js,Projetos,Programador,Frontend,Backend">
@@ -26,8 +26,9 @@
         <div class="container-fluid">
             <a href="index.html" class="navbar-brand">ISAQUE SILVA VENANCIO</a>
 
-            <select id="language-select" class="form-select" disabled>
-                <option value="pt_BR">Português (Brasil)</option>
+            <select id="language-select" class="form-select">
+                <option value="pt-BR">Português (Brasil)</option>
+                <option value="en-US">English (USA)</option>
             </select>
         </div>
     </nav>
@@ -42,22 +43,20 @@
             <div class="collapse navbar-collapse" id="mobile-nav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link">Sobre mim</a>
+                        <a class="nav-link" title="Ir para a seção Sobre mim">Sobre mim</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Habilidades técnicas</a>
+                        <a class="nav-link" title="Ir para a seção Habilidades Técnicas">Habilidades técnicas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Projetos</a>
+                        <a class="nav-link" title="Ir para a seção Projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Certificados</a>
+                        <a class="nav-link" title="Ir para a seção Certificados">Certificados</a>
                     </li>
-                    <!--
                     <li class="nav-item">
-                        <a href="" class="nav-link" download>Baixar currículo</a>
+                        <a href="https://www.canva.com/design/DAGkAIjzNPs/Fg7kW1an4sNv-RErKV2Lkw/edit?utm_content=DAGkAIjzNPs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="nav-link" target="_blank" title="Visualizar currículo (Canva)">Visualizar currículo</a>
                     </li>
-                    -->
                 </ul>
             </div>
         </div>
@@ -66,7 +65,7 @@
     <!-- Sobre mim -->
     <div id="about-me">
         <div class="container-fluid">
-            <div class="left-content" id="ohaio">
+            <div class="left-content">
                 <article>
                     <h1>Sobre mim</h1>
                     <p>Desenvolvedor Backend</p>
@@ -83,15 +82,15 @@
                         <a href="https://www.instagram.com/isaque.s.venancio/" class="social" title="Meu perfil no Instagram" target="_blank">
                             <i class="bi bi-instagram"></i>
                         </a>
-                        <a href="mailto:isaque.s.venancio43@gmail.com" class="social" title="Me envie um e-mail" target="_blank">
-                            <i class="bi bi-envelope-fill"></i>
+                        <a href="https://wa.me/5513997978218" class="social" title="Me envie uma mensagem" target="_blank">
+                            <i class="bi bi-whatsapp"></i>
                         </a>
                     </p>
                 </article>
             </div>
             <div class="right-content">
                 <a href="https://github.com/isaquesv" target="_blank" title="Meu perfil no GitHub">
-                    <img src="src/img/eu.jpeg" alt="Minha foto" />
+                    <img src="src/img/eu.jpeg" alt="Foto de perfil de Isaque Silva Venancio" />
                     <div id="green-circle"></div>
                 </a>
             </div>
@@ -103,7 +102,7 @@
         <div class="background">
             <div class="container-fluid">
                 <h2>Habilidades técnicas</h2>
-                <p>"Os componentes com <b>tons mais escuros</b> representam as tecnologias com as quais já tive maior contato e experiência prática ao longo da minha carreira. Já os <b>tons mais claros</b> indicam tecnologias que estou atualmente estudando ou com as quais tive apenas um breve contato até o momento."</p>
+                <p>Os componentes com <b>tons mais escuros</b> representam as tecnologias com as quais já tive maior contato e experiência prática ao longo da minha carreira. Já os <b>tons mais claros</b> indicam tecnologias que estou atualmente estudando ou com as quais tive apenas um breve contato até o momento.</p>
     
                 <div id="tags">
                     <div class="tag tag-1" title="HTML5">
@@ -192,19 +191,6 @@
             <div class="container-fluid">
                 <h2>Projetos</h2>
 
-                <!--
-                <search id="search">
-                    <input type="text" class="form-control" id="search-input" placeholder="Pesquisar">
-
-                    <select class="form-select" id="category-select">
-                        <option selected value="Categorias">Categorias</option>
-                        <option value="Site">Sites</option>
-                        <option value="API">APIs</option>
-                        <option value="Estudo">Estudos</option>
-                    </select>
-                </search>
-                -->
-
                 <div id="projects-content">
                     <div class="project">
                         <div class="left-content">
@@ -240,7 +226,7 @@
                             </div>
                         </div>
                         <div class="right-content">
-                            <img src="src/img/who_is_that_champion.png" alt="Tela de vitória do jogo 'Who is That Champion?' mostrando a imagem do campeão Zed, com características corretas e incorretas destacadas por cores diferentes" class="project-image">
+                            <img src="src/img/who-is-that-champion.png" alt="Tela de vitória do jogo 'Who is That Champion?' mostrando a imagem do campeão Zed, com características corretas e incorretas destacadas por cores diferentes" class="project-image" data-bs-toggle="modal" data-bs-target="#view-project-modal-001">
                         </div>
                     </div>
 
@@ -249,7 +235,7 @@
                             <article>
                                 <h2>Who Is That Champion Data API</h2>
                                 <p>APIs</p>
-                                <p>Uma <b>API REST</b> desenvolvida em Node.js que fornece dados estruturados e acessíveis sobre os campeões de League of Legends, servindo como base para o jogo <b>"Who Is That Champion"</b>.</p>
+                                <p>Uma <b>API REST</b> desenvolvida em Node.js que fornece dados estruturados e acessíveis sobre os campeões de League of Legends, servindo como base para o jogo <b>'Who Is That Champion'</b>.</p>
                                 <p>A <b>API</b> organiza informações como nome, região, recursos, função principal, ano de lançamento, entre outras características utilizadas no jogo. Projetada com foco em clareza, escalabilidade e facilidade de integração, essa API garante que o jogo receba dados consistentes e atualizados de forma eficiente.</p>
                             </article>
 
@@ -266,7 +252,7 @@
                                     <button class="button-1">Repositório</button>
                                 </a>
                                 <a href="https://who-is-that-champion-data-api.vercel.app/api" target="_blank">
-                                    <button class="button-1">Website</button>
+                                    <button class="button-1">Site</button>
                                 </a>
                                 <a class="view">
                                     <button class="button-1" data-bs-toggle="modal" data-bs-target="#view-project-modal-002">View</button>
@@ -274,7 +260,7 @@
                             </div>
                         </div>
                         <div class="right-content">
-                            <img src="src/img/who_is_that_champion_data_api.png" alt="Trecho de dados JSON da API de campeões do League of Legends, com informações detalhadas sobre os personagens Aatrox e Ahri" class="project-image">
+                            <img src="src/img/who-is-that-champion-data-api.png" alt="Trecho de dados JSON da API de campeões do League of Legends, com informações detalhadas sobre os personagens Aatrox e Ahri" class="project-image" data-bs-toggle="modal" data-bs-target="#view-project-modal-002">
                         </div>
                     </div>
 
@@ -283,7 +269,7 @@
                             <article>
                                 <h2>Calculator</h2>
                                 <p>Sites</p>
-                                <p>Calculadora web responsiva desenvolvida com HTML, CSS e JavaScript puro, que oferece suporte a três temas (<b>claro, escuro e antigo</b>). Suporta operações básicas, porcentagens, fatoriais e expressões matemáticas complexas, com entrada por teclado físico e recursos como troca de sinal, botão <b>"Ans"</b> para reutilizar o último resultado, além de limpar ou apagar valores da expressão.</p>
+                                <p>Calculadora web responsiva desenvolvida com HTML, CSS e JavaScript puro, que oferece suporte a três temas (<b>claro, escuro e antigo</b>). Suporta operações básicas, porcentagens, fatoriais e expressões matemáticas complexas, com entrada por teclado físico e recursos como troca de sinal, botão <b>'Ans'</b> para reutilizar o último resultado, além de limpar ou apagar valores da expressão.</p>
                             </article>
 
                             <div class="project-tags">
@@ -299,7 +285,7 @@
                                     <button class="button-1">Repositório</button>
                                 </a>
                                 <a href="https://isaquesv.github.io/calculator/" target="_blank">
-                                    <button class="button-1">Website</button>
+                                    <button class="button-1">Site</button>
                                 </a>
                                 <a class="view">
                                     <button class="button-1" data-bs-toggle="modal" data-bs-target="#view-project-modal-003">View</button>
@@ -307,7 +293,7 @@
                             </div>
                         </div>
                         <div class="right-content">
-                            <img src="src/img/calculadoras.jpg" alt="Três calculadoras lado a lado com diferentes temas: claro, escuro e antigo, exibindo botões matemáticos como C, %, n! e operações básicas" class="project-image">
+                            <img src="src/img/calculadoras.jpg" alt="Três calculadoras lado a lado com diferentes temas: claro, escuro e antigo, exibindo botões matemáticos como C, %, n! e operações básicas" class="project-image" data-bs-toggle="modal" data-bs-target="#view-project-modal-003">
                         </div>
                     </div>
 
@@ -316,7 +302,7 @@
                             <article>
                                 <h2>Assistente Virtual Educacional integrado ao SIGA</h2>
                                 <p>Sites</p>
-                                <p>Sistema que realiza a raspagem de dados acadêmicos a partir do login do aluno no <b>SIGA</b>, alimentando a <b>IA Gemini</b> com essas informações pessoais. Após esse processo, o usuário pode interagir livremente com a assistente virtual <b>"EduSIGA"</b>, que responde dúvidas e oferece suporte personalizado baseado nos dados acadêmicos do aluno.</p>
+                                <p>Sistema que realiza a raspagem de dados acadêmicos a partir do login do aluno no <b>SIGA</b>, alimentando a <b>IA Gemini</b> com essas informações pessoais. Após esse processo, o usuário pode interagir livremente com a assistente virtual <b>'EduSIGA'</b>, que responde dúvidas e oferece suporte personalizado baseado nos dados acadêmicos do aluno.</p>
                                 <p>O sistema também permite que o usuário apague conversas e exclua sua conta a qualquer momento, garantindo controle total sobre suas informações.</p>
                             </article>
 
@@ -329,7 +315,6 @@
                                 <div>JavaScript</div>
                                 <div>API</div>
                                 <div>Gemini</div>
-                                <div>IA</div>
                             </div>
 
                             <div class="project-buttons">
@@ -345,13 +330,11 @@
                             <article>
                                 <h2>Hora de Codar Java - Curso</h2>
                                 <p>Estudos</p>
-                                <p>Repositório pessoal dedicado ao acompanhamento e documentação do meu aprendizado no curso <b>"Java do Básico ao Avançado"</b>, ministrado por <b>Matheus Battisti</b> na plataforma <b>Hora de Codar</b>. Aqui registro exercícios, projetos e anotações que abrangem desde os fundamentos até tópicos avançados da linguagem <b>Java</b>, consolidando meus conhecimentos e aprimorando minhas habilidades em programação orientada a objetos e demais conceitos essenciais da linguagem.</p>
+                                <p>Repositório pessoal dedicado ao acompanhamento e documentação do meu aprendizado no curso <b>'Java do Básico ao Avançado'</b>, ministrado por <b>Matheus Battisti</b> na plataforma <b>Hora de Codar</b>. Aqui registro exercícios, projetos e anotações que abrangem desde os fundamentos até tópicos avançados da linguagem <b>Java</b>, consolidando meus conhecimentos e aprimorando minhas habilidades em programação orientada a objetos e demais conceitos essenciais da linguagem.</p>
                             </article>
 
                             <div class="project-tags">
                                 <div>Java</div>
-                                <div>Curso</div>
-                                <div>Estudo</div>
                             </div>
 
                             <div class="project-buttons">
@@ -371,13 +354,10 @@
                             </article>
 
                             <div class="project-tags">
-                                <div>Banco de Dados</div>
                                 <div>Apex</div>
                                 <div>Oracle</div>
                                 <div>SQL</div>
                                 <div>PLSQL</div>
-                                <div>Curso</div>
-                                <div>Estudo</div>
                             </div>
 
                             <div class="project-buttons">
@@ -402,8 +382,6 @@
                                 <div>Expo</div>
                                 <div>Mobile</div>
                                 <div>App</div>
-                                <div>Curso</div>
-                                <div>Estudo</div>
                             </div>
 
                             <div class="project-buttons">
@@ -430,8 +408,6 @@
                                 <div>JSPF</div>
                                 <div>Servlets</div>
                                 <div>SQLite</div>
-                                <div>Curso</div>
-                                <div>Estudo</div>
                             </div>
 
                             <div class="project-buttons">
@@ -466,7 +442,7 @@
                         <p>Oracle</p>
                         <p>Verificação emitida em nov de 2024</p>
                         <hr>
-                        <p>Prêmio de Conclusão - Database Foundations. Certificação concedida pela conclusão do curso "Database Foundations", oferecido na disciplina de Banco de Dados durante o 2º semestre de 2024, no curso de Análise e Desenvolvimento de Sistemas (ADS) da Fatec Praia Grande.</p>
+                        <p>Prêmio de Conclusão - Database Foundations. Certificação concedida pela conclusão do curso 'Database Foundations', oferecido na disciplina de Banco de Dados durante o 2º semestre de 2024, no curso de Análise e Desenvolvimento de Sistemas (ADS) da Fatec Praia Grande.</p>
                     </article>
 
                     <article class="certification">
@@ -474,7 +450,7 @@
                         <p>Oracle</p>
                         <p>Verificação emitida em nov de 2024</p>
                         <hr>
-                        <p>Prêmio de Conclusão - Database Foundations Cumulative Final Exam. Certificação concedida pela conclusão do exame final do curso "Database Foundations", realizado durante a disciplina de Banco de Dados no 2º semestre de 2024, no curso de Análise e Desenvolvimento de Sistemas (ADS) da Fatec Praia Grande.</p>
+                        <p>Prêmio de Conclusão - Database Foundations Cumulative Final Exam. Certificação concedida pela conclusão do exame final do curso 'Database Foundations', realizado durante a disciplina de Banco de Dados no 2º semestre de 2024, no curso de Análise e Desenvolvimento de Sistemas (ADS) da Fatec Praia Grande.</p>
                     </article>
 
                     <article class="certification">
@@ -490,7 +466,7 @@
                         <p>Wizard by Pearson</p>
                         <p>Verificação emitida em mar de 2023</p>
                         <hr>
-                        <p>Certificado de conclusão - Immediate Conversation. Certificado concedido pela conclusão do curso de inglês "Immediate Conversation" na Wizard Itanhaém, com carga horária total de 140 horas.</p>
+                        <p>Certificado de conclusão - Immediate Conversation. Certificado concedido pela conclusão do curso de inglês 'Immediate Conversation' na Wizard Itanhaém, com carga horária total de 140 horas.</p>
                     </article>
                 </div>
             </div>
@@ -499,17 +475,33 @@
 
     <!-- Rodapé -->
     <footer class="footer">
-        <a href="https://github.com/isaquesv" target="_blank" title="Link para o perfil GitHub">
-            <p>© 2025–2025 isaquesv. Todos os direitos reservados.</p>
-        </a>
+        <div class="footer-links">
+            <a href="https://github.com/isaquesv" class="social" title="GitHub" target="_blank">
+                <i class="bi bi-github"></i> isaquesv
+            </a>
+            <a href="https://www.linkedin.com/in/isaque-venancio/" class="social" title="LinkedIn" target="_blank">
+                <i class="bi bi-linkedin"></i> isaque-venancio
+            </a>
+            <a href="https://www.instagram.com/isaque.s.venancio/" class="social" title="Email" target="_blank">
+                <i class="bi bi-envelope"></i> isaque.s.venancio43@gmail.com
+            </a>
+            <a href="https://www.instagram.com/isaque.s.venancio/" class="social" title="Instagram" target="_blank">
+                <i class="bi bi-instagram"></i> isaque.s.venancio
+            </a>
+            <a href="https://wa.me/5513997978218" class="social" title="WhatsApp" target="_blank">
+                <i class="bi bi-whatsapp"></i> +55 (13) 99797-8218
+            </a>
+        </div>
+        <p id="copyright">© 2025 Copyright: isaquesv</p>
     </footer>
+
 
     <!-- Modais -->
     <div class="modal fade" id="view-project-modal-001" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img class="project-image" src="src/img/who_is_that_champion.png" alt="Tela de vitória do jogo 'Who is That Champion?' mostrando a imagem do campeão Zed, com características corretas e incorretas destacadas por cores diferentes">
+                    <img class="project-image" src="src/img/who-is-that-champion.png" alt="Tela de vitória do jogo 'Who is That Champion?' mostrando a imagem do campeão Zed, com características corretas e incorretas destacadas por cores diferentes">
                 </div>
             </div>
         </div>
@@ -519,7 +511,7 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img class="project-image" src="src/img/who_is_that_champion_data_api.png" alt="Trecho de dados JSON da API de campeões do League of Legends, com informações detalhadas sobre os personagens Aatrox e Ahri">
+                    <img class="project-image" src="src/img/who-is-that-champion-data-api.png" alt="Trecho de dados JSON da API de campeões do League of Legends, com informações detalhadas sobre os personagens Aatrox e Ahri">
                 </div>
             </div>
         </div>
@@ -536,6 +528,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="src/js/language.js"></script>
     <script src="src/js/navbar.js"></script>
     <script src="src/js/footer.js"></script>
 </body>
